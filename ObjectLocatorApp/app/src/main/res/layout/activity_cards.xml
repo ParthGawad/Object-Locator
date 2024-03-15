@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    android:id="@+id/main_container"
+    android:background="#00FFFFFF"
+    tools:context=".Cards">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal"
+        android:layout_margin="6dp"
+        android:background="#00FFFFFF"
+        android:weightSum="3"
+        >
+
+        <LinearLayout
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:id="@+id/text_name"
+                android:textSize="22sp"
+                android:text="Demo"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:textColor="#4D68FF"
+                android:background="@drawable/cardround"
+                android:maxLines="3"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_loc"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:textColor="#4D68FF"
+                android:text="Address"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/cardround"
+                android:lines="3"
+                android:paddingLeft="16dp"
+                android:paddingTop="10dp"
+                >
+            </TextView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="165dp"
+                android:layout_height="48dp"
+                android:text="|  View Location  |"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#00FFFFFF"
+                android:textColor="#037DFF"
+                android:layout_marginTop="15dp"
+                android:id="@+id/view_loc"
+                android:textAllCaps="false"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="165dp"
+                android:layout_height="48dp"
+                android:text="Edit Object  |"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:id="@+id/set_loc"
+                android:background="#00FFFFFF"
+                android:textColor="#037DFF"
+                android:layout_marginTop="-48dp"
+                android:layout_marginLeft="145dp"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="165dp"
+                android:layout_height="48dp"
+                android:text=" Delete object  |"
+                android:id="@+id/del_object"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:background="#00FFFFFF"
+                android:textColor="#037DFF"
+                android:layout_marginTop="-48dp"
+                android:layout_marginLeft="250dp"
+                />
+            
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_ios_share_24"
+                android:layout_marginTop="-54dp"
+                android:layout_marginLeft="375dp"
+                android:id="@+id/share"
+                />
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_add_location_24"
+                android:layout_marginTop="-32dp"
+                android:layout_marginLeft="415dp"
+                android:id="@+id/loc"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

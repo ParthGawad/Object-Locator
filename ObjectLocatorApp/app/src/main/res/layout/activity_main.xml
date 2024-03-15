@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves"
+    tools:context=".MainActivity">
+
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=" ? "
+       android:textSize="40dp"
+       android:background="#00FFFFFF"
+       android:layout_alignRight="@id/obj"
+       android:layout_marginTop="10dp"
+       android:textColor="@color/white"
+       android:layout_marginRight="@dimen/_12sdp"
+       android:id="@+id/aboutus"
+       />
+
+
+    <TextView
+        android:id="@+id/obj"
+        android:layout_width="@dimen/_550sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/round"
+        android:gravity="center"
+        android:paddingLeft="-190dp"
+        android:text="Object Locator App"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/obj"
+        android:text="+"
+        android:paddingTop="-10dp"
+        android:layout_marginTop="@dimen/_10ssp"
+        android:textSize="40dp"
+        android:layout_marginRight="@dimen/_8ssp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/plus_button"
+        android:id="@+id/add_btn"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/add_btn"
+        android:layout_marginTop="0dp"
+        android:scrollbarSize="100dp"></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

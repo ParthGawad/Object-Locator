@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about_us">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_arrow_back_ios_24"
+        android:id="@+id/backto1"
+        android:background="#00FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Code_Veronica \n \nThe Developers of Object Locator App"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:id="@+id/team"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/team"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#00FFFFFF"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/parth"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/parth" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/parth"
+            android:layout_marginLeft="25dp"
+            android:gravity="center"
+            android:text="Parth Gawad"
+            android:textColor="#0357FF"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/parth"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="39dp"
+            android:text="Team Leader\nLogic &amp; UI Designer"
+            android:textColor="#5F93FB"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/mayank"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/mayank" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mayank"
+            android:layout_marginLeft="250dp"
+            android:gravity="center"
+            android:text="Mayank Maurya"
+            android:textColor="#0357FF"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/parth"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="39dp"
+            android:text="Documents Handler\n&amp; Logic Designer"
+            android:textColor="#5F93FB"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/sara"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/parth"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/sara" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sara"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Sarah Shaikh"
+            android:textColor="#0357FF"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sara"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="49dp"
+            android:text="Documents Handler\n&amp; UI Designer"
+            android:textColor="#5F93FB"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/yash"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/parth"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/yash" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sara"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Yash Mharv"
+            android:textColor="#0357FF"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sara"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="49dp"
+            android:text="Documents Handler\n&amp; UI Designer"
+            android:textColor="#5F93FB"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

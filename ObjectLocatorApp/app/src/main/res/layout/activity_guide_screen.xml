@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuideScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#000b76"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wave1"
+        android:layout_marginTop="-40dp"
+        />
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/guide_img"
+        />
+    <TextView
+        android:layout_width="550dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Object Locator App"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:textColor="#005EFF"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The App that helps you to keep your belongings Safe &amp; Sound in your Mind \n Click on the add icon on the next page"
+        android:textColor="#005EFF"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="350dp"
+        android:layout_height="64dp"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:background="@drawable/plus_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="700dp"
+        android:id="@+id/getStar"
+        />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/wave"
+        android:layout_marginTop="850dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="950dp"
+        android:background="#000b76"
+        />
+</RelativeLayout>
